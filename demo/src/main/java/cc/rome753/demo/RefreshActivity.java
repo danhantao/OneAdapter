@@ -1,18 +1,18 @@
 package cc.rome753.demo;
 
 import android.os.Bundle;
-import android.support.v4.widget.SwipeRefreshLayout;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.GridLayoutManager;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.GridLayoutManager;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import cc.rome753.oneadapter.R;
 import cc.rome753.oneadapter.base.OneListener;
 import cc.rome753.oneadapter.base.OneViewHolder;
+import cc.rome753.oneadapter.demo.R;
 import cc.rome753.oneadapter.refresh.FooterAdapter;
 import cc.rome753.oneadapter.refresh.LoadingLayout;
 import cc.rome753.oneadapter.refresh.RecyclerLayout;
